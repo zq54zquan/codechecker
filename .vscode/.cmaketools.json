@@ -1,0 +1,55 @@
+{
+  "variant": {
+    "label": "Debug",
+    "keywordSettings": {
+      "buildType": "debug"
+    },
+    "description": "Emit debug information without performing optimizations"
+  },
+  "activeEnvironments": [],
+  "codeModel": {
+    "configurations": [
+      {
+        "name": "Debug",
+        "projects": [
+          {
+            "buildDirectory": "/Users/zhouquan/cpp/build",
+            "name": "Project",
+            "sourceDirectory": "/Users/zhouquan/cpp",
+            "targets": [
+              {
+                "artifacts": [
+                  "/Users/zhouquan/cpp/build/a.out"
+                ],
+                "buildDirectory": "/Users/zhouquan/cpp/build",
+                "fileGroups": [
+                  {
+                    "compileFlags": " -v -std=c++11 -stdlib=libc++ -g  ",
+                    "isGenerated": false,
+                    "language": "CXX",
+                    "sources": [
+                      "test.cpp",
+                      "util.cpp",
+                      "difftool.cpp",
+                      "codecheck.cpp",
+                      "strcheck.cpp"
+                    ]
+                  }
+                ],
+                "fullName": "a.out",
+                "linkLanguageFlags": "-v -std=c++11 -stdlib=libc++ -g",
+                "linkerLanguage": "CXX",
+                "name": "a.out",
+                "sourceDirectory": "/Users/zhouquan/cpp",
+                "type": "EXECUTABLE"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "cookie": "0.17265398262379628",
+    "inReplyTo": "codemodel",
+    "type": "reply"
+  }
+}
